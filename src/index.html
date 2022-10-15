@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../dist/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <script src="gradient.js"></script>
     <title>Kevin Wu</title>
-</head>
-<body class="bg-slate-400 h-screen">
-    <div class="flex flex-col h-screen bg-slate-600 mt-4 mr-4 ml-4">
-        <div class="flex gap-5 justify-end pr-10 mt-6">
-            <a class="headerlink" href="#about">About Me</a>
-            <a class="headerlink" href="#">Skills</a>
-            <a class="headerlink" href="#">My Work</a>
-            <a class="headerlink" href="#">Connect</a>
+
+    <script>
+      
+    </script>
+  </head>
+
+  <body class="bg-slate-50">
+    <div id="firstpage" class="flex flex-col h-screen">
+      <div class="flex gap-5 justify-end pr-10 mt-6">
+        <a class="headerlink" href="#work">My Work</a>
+        <a class="headerlink" href="#skills">Skills</a>
+        <a class="headerlink" href="#">Connect</a>
+      </div>
+      <!-- <canvas id="gradient-canvas" data-transition-in /> -->
+      <div class="flex flex-1 flex-col justify-center items-center gap-3">
+        <a class="font-sans font-bold text-7xl fade-in-image">
+          Hi, I'm Kevin Wu
+        </a>
+        <div class="flex typewriter">
+          <h1 class="text-3xl pb-2">
+            Carleton University Computer Science Student
+          </h1>
         </div>
-        <div class="flex flex-1 flex-col justify-center items-center gap-3">
-            <div class="flex typewriter">
-                <h1 class="font-sans font-bold text-7xl text-white">Hi, I'm Kevin Wu</h1>
-            </div>
-            <a class="text-gray-200 text-3xl">I'm a Computer Science Undergrad at Carleton University</a>
-            <!-- <div>
-                <img class="absolute" src="images/whitesquare.png">
-                <img class="absolute opacity-0 hover:opacity-100 hover:animate-pulse" src="images/bluesquare.png">
-                
-            </div> -->
+        <a href="#work">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fade-in-image">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+          </svg>
+        </a>
         </div>
     </div>
-    <div id="about" class="flex flex-col h-screen bg-slate-600 ml-4 mr-4 justify-center w-100vh">
-        <a class="subtitle text-white ml-10">About Me</a>
-        <p class="text-gray-200 ml-10 mt-8 text-3xl w-1/2">My name is Kevin Wu. I am a passionate Computer Science student interested in development and AI/ML. Scroll down to the next section to view the skills I've obtained throughout my several years of code</p>
+    <div id="work" class="h-screen">
+      <a class="subtitle ml-10">My Work</a>
     </div>
-</body>
+    <div
+      id="skills"
+      class="flex flex-col h-screen ml-4 mr-4 justify-center w-100vh"
+    >
+      <a class="subtitle ml-10">Skills</a>
+      <p class="ml-10 mt-8 text-3xl w-1/2">PLACEHOLDER TEXT</p>
+    </div>
+  </body>
 </html>
