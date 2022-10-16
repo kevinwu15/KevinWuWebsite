@@ -109,3 +109,8 @@ background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' heigh
   width: 112px;
   height: 112px;
 }
+
+.workicon {
+  height: 50px;
+  width: 50px;
+}

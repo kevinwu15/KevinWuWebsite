@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../dist/output.css" />
     <script src="gradient.js"></script>
     <title>Kevin Wu</title>
-
+    <link rel="icon" href="">
     <script>
       
     </script>
   </head>
 
   <body class="bg-slate-50">
+
     <div id="firstpage" class="flex flex-col h-screen">
       <div class="flex gap-5 justify-end pr-10 mt-6">
         <a class="headerlink" href="#work">My Work</a>
@@ -30,21 +31,60 @@
             Carleton University Computer Science Student
           </h1>
         </div>
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-10">
+          View my Resume
+        </button>
         <a href="#work">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 animate-bounce">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 animate-bounce mt-20">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
           </svg>
         </a>
         </div>  
     </div>
-    <div id="work" class="h-screen flex flex-col items-center">
-      <a class="subtitle mb-20">My Work</a>
+
+    <div id="work" class="h-full flex flex-col border-b-4 border-green-900 border-opacity-25">
+      <div class="flex justify-center">
+        <a class="subtitle">My Work</a>
+      </div>
+      <div class="flex flex-col">
+        <div class="my-20 flex flex-row w-screen">
+          <div class="flex flex-col w-1/2 ml-40">
+            <a class="text-2xl w-1/2">KevinWu.ca</a>
+            <a class="text-lg">Website</a>
+            <a class="my-10">My portfolio; my first web development-based personal project.</a>
+            <div class="flex flex-row gap-5">
+              <img src="images/htmlLogo.webp" class="workicon">
+              <img src="images/cssIcon.png" class="workicon">
+              <img src="images/tailwindIcon.png" class="workicon">
+              <img src="images/jsIcon.png" class="workicon">
+            </div>
+          </div>
+          <div class="flex flex-col w-1/2 mr-40 items-center justify-center">
+            <img src="">
+          </div>
+        </div>
+        <div class="my-20 flex flex-row w-screen">
+          <div class="flex flex-col w-1/2 ml-40 h-full">
+            <a class="text-2xl w-1/2">TraQR</a>
+            <a class="text-lg">Android App</a>
+            <a class="my-10">TraQR is an application able to scan, create, and store QR codes with the purpose of improving school equipment tracking. Created by our highschool Tech Startup Club, of which I was Co-President and Co-Software Lead.</a>
+            <div class="flex flex-row gap-5">
+              <img src="images/javaIcon.png" class="workicon">
+              <img src="images/firebaseIcon.webp" class="workicon">
+              <img src="images/androidStudioIcon.png" class="workicon">
+              <img src="images/xmlIcon.png" class="workicon">
+              <img src="images/adobexdIcon.png" class="workicon">
+            </div>
+          </div>
+          <div class="flex flex-col w-1/2 mr-40 items-center justify-center h-full">
+            <img src="images/traqrIcon.png">
+          </div>
+        </div>
+      </div>
     </div>
-    <div
-      id="skills"
-      class="flex flex-col h-screen ml-4 mr-4 items-center w-100vh"
-    >
-      <a class="subtitle mb-20">Skills</a>
+
+    <div id="skills" class="flex flex-col h-full ml-4 mr-4 items-center">
+      <a class="subtitle my-20">Skills</a>
       <div class="skillscol flex flex-col">
         <div class="flex gap-20 mb-20 mx-40 flex-wrap justify-center">
           <img src="images/pythonIcon.webp" class="icon">
@@ -56,13 +96,18 @@
           <img src="images/bootstrapIcon.png" class="icon">
           <img src="images/nodejsIcon.webp" class="icon">
           <img src="images/gitIcon.png" class="icon">
-          <img src="images/githubIcon.png" class="icon">
-          <img src="images/xmlIcon.png" class="icon">
-          <img src="images/androidStudioIcon.png" class="icon">
           <img src="images/firebaseIcon.webp" class="icon">
+          <img src="images/androidStudioIcon.png" class="icon">
+          <img src="images/xmlIcon.png" class="icon">
           <img src="images/adobexdIcon.png" class="icon">
         </div>
       </div>
+    </div>
+
+    <div id="connect" class="flex flex-row h-full bg-slate-300 pt-10 justify-center">
+      <a href="https://github.com/kevinwu15" target="_blank">
+        <img src="images/githubIcon.png" class="icon">
+      </a>
     </div>
   </body>
 </html>
