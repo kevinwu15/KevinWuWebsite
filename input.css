@@ -114,3 +114,12 @@ background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' heigh
   height: 50px;
   width: 50px;
 }
+
+.footericon{
+  height: 60px;
+  width: 60px;
+}
+
+#connect {
+  background-color: #a2ad9c;
+}
